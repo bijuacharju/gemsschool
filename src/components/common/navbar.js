@@ -42,11 +42,11 @@ function NavBar() {
                 Administrative Staff and Faculty Members
               </NavDropdown.Item>
               
-              <NavDropdown.Divider /><NavDropdown.Item href="#history">
+              <NavDropdown.Divider /><NavDropdown.Item href="/history">
                 History
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#pedagogy">
+              <NavDropdown.Item href="/pedagogy">
                 Learning Pedagogy
               </NavDropdown.Item>
             </NavDropdown>
