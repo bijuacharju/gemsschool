@@ -1,13 +1,13 @@
 import React from "react";
 import { Tabs, Tab, Col, Row, Card } from "react-bootstrap";
-import { Rajesh } from "../../assets/images/rajesh.jpg";
+import Rajesh from "../../assets/images/rajesh.jpg";
 
 const admin = [
   {
     key: 1,
     name: "Mr. Rajesh Khadka",
     position: "Founder Chairman",
-    image: { Rajesh },
+    image: `${Rajesh}`,
   },
   {
     key: 2,
@@ -175,7 +175,7 @@ function Staff() {
               {admin.map((item) => {
                 return (
                   <Col xs={12} md={4}>
-                    <Card className="facilitiesIcon personCard">
+                    <Card className="facilitiesIcon personCard" key={item.key}>
                       <Card.Img variant="top" src={item.image} />
                       <Card.Body>
                         <Card.Title>{item.name}</Card.Title>
@@ -192,9 +192,8 @@ function Staff() {
             <Row>
               {faculty.map((item) => {
                 return (
-                  <Col xs={12} md={4}>
+                  <Col xs={12} md={3}>
                     <Card className="facilitiesIcon personCard">
-                      <Card.Img variant="top" src={item.image} />
                       <Card.Body>
                         <Card.Title>{item.name}</Card.Title>
                         <Card.Text>{item.position}</Card.Text>

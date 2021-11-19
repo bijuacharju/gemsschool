@@ -187,6 +187,9 @@ h6 {
 }
 
 .personCard{
-  margin: 10px 0;
-  height:max-content;
+  /* margin: 10px 0; */
+  /* height:max-content; */
+}
+.personCard img{
+  width: 100%;
 }

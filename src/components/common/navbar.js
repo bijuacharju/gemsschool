@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-import logoSmall from "../../assets/images/logoSmall.png";
+// import logoSmall from "../../assets/images/logoSmall.png";
 
 function NavBar() {
   return (
