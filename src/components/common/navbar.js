@@ -16,7 +16,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand>
-          <Link to="/" className="navLinks">
+          <Link to="/home" className="navLinks">
             GEMS
           </Link>
         </Navbar.Brand>
@@ -24,7 +24,7 @@ function NavBar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/home">Home</Nav.Link>
 
             <NavDropdown title="About Us" id="collasible-nav-dropdown">
               <NavDropdown.Item href="/aboutwhoweare">
