@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import Hero from "../components/home/hero";
 import WhoWeAre from "../components/home/whoWeAre";
 import Message from "../components/home/message";

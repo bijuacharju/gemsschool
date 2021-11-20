@@ -43,7 +43,7 @@ function Facilities() {
                 <Col xs={12} md={4}>
                   <a href={item.link}>
                     <Card>
-                      <Card.Body className="facilitiesIcon">
+                      <Card.Body className="facilitiesIcon" key={item.key}>
                         {item.icon}
                         <Card.Title>{item.title}</Card.Title>
                         <Card.Text>{item.description}</Card.Text>

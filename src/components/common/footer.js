@@ -13,7 +13,7 @@ const items = [
     link3: "#",
     linkName3: "P.O. Box: 1794 Kathmandu, Nepal",
     link4: "#",
-    linkName: "977 01 5275111",
+    linkName4: "977 01 5275111",
     link5: "#",
     linkName5: "977 01 5275121",
     link6: "#",
@@ -31,7 +31,7 @@ const items = [
     link3: "#",
     linkName3: "Routine",
     link4: "#",
-    linkName: "Online Classes Links",
+    linkName4: "Online Classes Links",
     link5: "#",
     linkName5: "Other Service",
   },
@@ -61,7 +61,7 @@ const items = [
     link3: "#",
     linkName3: "eKantipur",
     link4: "#",
-    linkName: "w3school",
+    linkName4: "w3school",
     link5: "#",
     linkName5: "Google Scholar",
     link6: "#",
@@ -89,15 +89,12 @@ function Footer() {
                     <a href={item.link3}>{item.linkName3}</a>
                   </p>
                   <p>
-                    {" "}
                     <a href={item.link4}>{item.linkName4}</a>
                   </p>
                   <p>
-                    {" "}
                     <a href={item.link5}>{item.linkName5}</a>
                   </p>
                   <p>
-                    {" "}
                     <a href={item.link6}>{item.linkName6}</a>
                   </p>
                   <p>
