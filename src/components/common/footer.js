@@ -76,7 +76,7 @@ function Footer() {
         <Row>
           {items.map((item) => {
             return (
-              <Col xs={12} md={3}>
+              <Col xs={12} md={3} key={item.key}>
                 <div className="content">
                   <h4>{item.title}</h4>
                   <p>

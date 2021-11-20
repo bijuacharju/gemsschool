@@ -5,7 +5,7 @@ import { FaHome, FaFirstAid, FaBus } from "react-icons/fa";
 const items = [
   {
     key: 1,
-    link: "/",
+    link: "/facilitiesDetails#hostel",
     icon: <FaHome />,
     title: "Hostel",
     description:
@@ -13,7 +13,7 @@ const items = [
   },
   {
     key: 2,
-    link: "/",
+    link: "/facilitiesDetails#health",
     icon: <FaFirstAid />,
     title: "Health Care",
     description:
@@ -21,7 +21,7 @@ const items = [
   },
   {
     key: 3,
-    link: "/",
+    link: "/facilitiesDetails#bus",
     icon: <FaBus />,
     title: "School Bus",
     description:

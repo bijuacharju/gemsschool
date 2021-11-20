@@ -66,7 +66,7 @@
 .contentHolder h6{
   padding: 10px 0px 20px;
 }
-.contentHolder img {
+.founderImage img {
   border-radius: 50%;
   border: 3px solid #1890ff;
 }
@@ -152,20 +152,20 @@ h6 {
 .social{
   align-items: center;
 }
+.social a{
+  color:#fff;
+  text-decoration: none;
+  font-size: 20px;
+}
 .socialLeft{
-  display: flex;
-  /* justify-content: left; */
   align-items: center;
 }
 .social h4{
   color:#fff;
   text-align: left;
 }
-.social a{
-  color:#fff;
-  text-decoration: none;
+.socialMedia a{
   padding-left: 25px;
-  font-size: 20px;
 }
 .socialMedia{
   display: flex;
@@ -175,7 +175,7 @@ h6 {
 .founder img{
   height: 400px;
   border: none;
-  border-radius: 0;
+  border-radius: 4px;
 }
 
 #visionmissionobjective{
@@ -201,4 +201,34 @@ h6 {
 
 .imageHolder{
   margin: 40px 0;
+}
+
+.details{
+  padding: 30px 0 0 0;
+}
+
+#bus ol li, #scholarshipList ol li{
+  text-align: justify;
+  padding: 10px 0;
+}
+
+.admissions h6{
+  margin: 0;
+  padding: 4px;
+}
+
+.admissions svg{
+  margin-right: 8px;
+}
+#outline{
+  color:#0d6efd;
+  transition: 0.3s ease-in-out;
+}
+#outline:hover{
+  background-color: #0d6efd;
+  color: #fff;
+}
+.subTitle{
+  padding: 0 0 15px 0;
+  border-bottom: 1px solid #d9d9d9;
 }

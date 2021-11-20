@@ -15,7 +15,7 @@ function Extra() {
               <h2>Child Centered Approach</h2>
             </div>
             <div className="contentHolder">
-              <p>
+              <p style={{textAlign:'left'}}>
                 At GEMS, we provide students with a stimulating learning
                 environment, in which they explore their full potential and
                 develop a strong academic foundation for higher studies. A

@@ -8,7 +8,7 @@ function Message() {
         <div className="titleHolder">
           <h2>Founder Director's Message</h2>
         </div>
-        <div className="contentHolder">
+        <div className="contentHolder founderImage">
             
           <img src={founder} alt="founder" />
           <h6>Rajesh Khadka, Founder Director</h6>

@@ -3,15 +3,23 @@ import { Routes, Route } from "react-router-dom";
 import "./App.css";
 
 import NavBar from "./components/common/navbar";
-import Home from "./views/home";
-import Contact from "./views/contact";
 import Footer from "./components/common/footer";
+
+import Home from "./views/home";
+import FacilityDetails from "./views/facilityDetails";
+import Contact from "./views/contact";
+
 import AboutWhoWeAre from "./components/about/whoweare";
 import FounderMessage from "./components/about/founderMessage";
 import VisionMissionObjective from "./components/about/visionMissionObjective";
 import Staff from "./components/about/staff";
 import History from "./components/about/history";
 import Pedagogy from "./components/about/pedagogy";
+import Information from "./views/information";
+
+import Admissions from "./components/information/admissions";
+import AcademicInformation from "./components/information/academicInformation";
+import Scholarship from "./components/information/scholarship";
 
 function App() {
   return (
@@ -19,13 +27,22 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="facilitiesDetails" element={<FacilityDetails />} />
+
         <Route path="contact" element={<Contact />} />
+
         <Route path="aboutwhoweare" element={<AboutWhoWeAre />} />
         <Route path="founderMessage" element={<FounderMessage />} />
         <Route path="visionmissionobjective" element={<VisionMissionObjective />} />
         <Route path="staff" element={<Staff />} />
         <Route path="history" element={<History />} />
         <Route path="pedagogy" element={<Pedagogy />} />
+
+        <Route path="information" element={<Information/>} />
+        <Route path="admissions" element={<Admissions/>} />
+        <Route path="academicInformation" element={<AcademicInformation/>} />
+        <Route path="scholarship" element={<Scholarship />} />
+
 
       </Routes>
       <Footer />

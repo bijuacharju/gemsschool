@@ -24,11 +24,12 @@ function NavBar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/">
-                Home
-            </Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
+
             <NavDropdown title="About Us" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="/aboutwhoweare">Who we are</NavDropdown.Item>
+              <NavDropdown.Item href="/aboutwhoweare">
+                Who we are
+              </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="/founderMessage">
                 Founder Director's Message
@@ -41,34 +42,31 @@ function NavBar() {
               <NavDropdown.Item href="/staff">
                 Administrative Staff and Faculty Members
               </NavDropdown.Item>
-              
-              <NavDropdown.Divider /><NavDropdown.Item href="/history">
-                History
-              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="/history">History</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="/pedagogy">
                 Learning Pedagogy
               </NavDropdown.Item>
             </NavDropdown>
+
             <NavDropdown title="Information" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Admission</NavDropdown.Item>
+              <NavDropdown.Item href="/information#admissions">Admission</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item href="/information#academicInformation">
                 Academic Information
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.3">
+              <NavDropdown.Item href="/information#scholarship">
                 Scholarship
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
+              <NavDropdown.Item href="/information#generalInformation">
                 General Information
               </NavDropdown.Item>
             </NavDropdown>
 
-            <Nav.Link href="/contact">
-                Contact
-            </Nav.Link>
+            <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
