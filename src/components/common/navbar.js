@@ -15,106 +15,92 @@ function NavBar() {
       className="navbarContainer"
     >
       <Container>
-        <Link to="/" className="navLinks">
-          <Navbar.Brand>GEMS</Navbar.Brand>
-        </Link>
+        <Navbar.Brand>
+          <Link to="/" className="navLinks">
+            GEMS
+          </Link>
+        </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Link to="/" className="reactLinks">
-              <Nav.Link>Home</Nav.Link>
-            </Link>
+            <Nav.Link>
+              <Link to="/" className="reactLinks">Home</Link>
+            </Nav.Link>
 
             <NavDropdown title="About Us" id="collasible-nav-dropdown">
-              <Link to="/aboutwhoweare" className="reactLinks">
-                <NavDropdown.Item>Who we are</NavDropdown.Item>
-              </Link>
-              <NavDropdown.Divider />
-              <Link to="/founderMessage" className="reactLinks">
-                <NavDropdown.Item>Founder Director's Message</NavDropdown.Item>
-              </Link>
-              <NavDropdown.Divider />
-              <Link to="/visionmissionobjective" className="reactLinks">
-                <NavDropdown.Item>
-                  Vision Mission &amp; Objective
-                </NavDropdown.Item>
-              </Link>
-              <NavDropdown.Divider />
-              <Link to="/staff" className="reactLinks">
-                <NavDropdown.Item>
-                  Administrative Staff and Faculty Members
-                </NavDropdown.Item>
-              </Link>
-              <NavDropdown.Divider />
-              <Link to="/history" className="reactLinks">
-                <NavDropdown.Item>History</NavDropdown.Item>
-              </Link>
-              <NavDropdown.Divider />
-                <Link to="/pedagogy" className="reactLinks">
               <NavDropdown.Item>
-                  Learning Pedagogy
+                <Link to="/aboutwhoweare" className="reactLinks">Who we are</Link>
               </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item>
+                <Link to="/founderMessage" className="reactLinks">Founder Director's Message</Link>
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item>
+                <Link to="/visionmissionobjective" className="reactLinks">
+                  Vision Mission &amp; Objective
                 </Link>
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item>
+                <Link to="/staff" className="reactLinks">
+                  Administrative Staff and Faculty Members
+                </Link>
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item>
+                <Link to="/history" className="reactLinks">History</Link>
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item>
+                <Link to="/pedagogy" className="reactLinks">Learning Pedagogy</Link>
+              </NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title="Information" id="collasible-nav-dropdown">
+              <NavDropdown.Item>
                 <Link to="/information#admissions" className="reactLinks">
-              <NavDropdown.Item>
                   Admission
-              </NavDropdown.Item>
                 </Link>
+              </NavDropdown.Item>
               <NavDropdown.Divider />
-                <Link
-                  to="/information#academicInformation"
-                  className="reactLinks"
-                >
               <NavDropdown.Item>
+                <Link to="/information#academicInformation" className="reactLinks">
                   Academic Information
-              </NavDropdown.Item>
                 </Link>
-              <NavDropdown.Divider />
-                <Link to="/information#scholarship" className="reactLinks">
-              <NavDropdown.Item>
-                  Scholarship
               </NavDropdown.Item>
-                </Link>
               <NavDropdown.Divider />
-                <Link
-                  to="/information#generalInformation"
-                  className="reactLinks"
-                >
               <NavDropdown.Item>
+                <Link to="/information#scholarship" className="reactLinks">Scholarship</Link>
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item>
+                <Link to="/information#generalInformation" className="reactLinks">
                   General Information
-              </NavDropdown.Item>
                 </Link>
+              </NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title="Clubs &amp; ECA" id="collasible-nav-dropdown">
-                <Link to="/clubs#thunderbolts" className="reactLinks">
               <NavDropdown.Item>
-                  Thunderbolts
+                <Link to="/clubs#thunderbolts" className="reactLinks">Thunderbolts</Link>
               </NavDropdown.Item>
-                </Link>
               <NavDropdown.Divider />
+              <NavDropdown.Item>
                 <Link to="/clubs#extraActivities" className="reactLinks">
-              <NavDropdown.Item>
                   Extra Curricular Activities
-              </NavDropdown.Item>
                 </Link>
+              </NavDropdown.Item>
               <NavDropdown.Divider />
-                <Link to="/clubs#amp" className="reactLinks">
               <NavDropdown.Item>
-                  ECA &amp; Staff
+                <Link to="/clubs#amp" className="reactLinks">ECA &amp; Staff</Link>
               </NavDropdown.Item>
-                </Link>
             </NavDropdown>
 
-            <Link to="/contact" className="reactLinks">
             <Nav.Link>
-                Contact
+              <Link to="/contact" className="reactLinks">Contact</Link>
             </Nav.Link>
-              </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

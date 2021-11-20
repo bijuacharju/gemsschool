@@ -26,14 +26,14 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="facilitiesDetails" element={<FacilityDetails />} />
+        <Route path="/facilitiesDetails" element={<FacilityDetails />} />
 
-        <Route path="contact" element={<Contact />} />
+        <Route path="/contact" element={<Contact />} />
 
-        <Route path="aboutwhoweare" element={<AboutWhoWeAre />} />
-        <Route path="founderMessage" element={<FounderMessage />} />
-        <Route path="visionmissionobjective" element={<VisionMissionObjective />} />
-        <Route path="staff" element={<Staff />} />
+        <Route path="/aboutwhoweare" element={<AboutWhoWeAre />} />
+        <Route path="/founderMessage" element={<FounderMessage />} />
+        <Route path="/visionmissionobjective" element={<VisionMissionObjective />} />
+        <Route path="/staff" element={<Staff />} />
         <Route path="history" element={<History />} />
         <Route path="pedagogy" element={<Pedagogy />} />
 
