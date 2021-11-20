@@ -15,74 +15,106 @@ function NavBar() {
       className="navbarContainer"
     >
       <Container>
-        <Navbar.Brand>
-          <Link to="/" className="navLinks">
-            GEMS
-          </Link>
-        </Navbar.Brand>
+        <Link to="/" className="navLinks">
+          <Navbar.Brand>GEMS</Navbar.Brand>
+        </Link>
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/">Home</Nav.Link>
+            <Link to="/" className="reactLinks">
+              <Nav.Link>Home</Nav.Link>
+            </Link>
 
             <NavDropdown title="About Us" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="/aboutwhoweare">
-                Who we are
-              </NavDropdown.Item>
+              <Link to="/aboutwhoweare" className="reactLinks">
+                <NavDropdown.Item>Who we are</NavDropdown.Item>
+              </Link>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/founderMessage">
-                Founder Director's Message
-              </NavDropdown.Item>
+              <Link to="/founderMessage" className="reactLinks">
+                <NavDropdown.Item>Founder Director's Message</NavDropdown.Item>
+              </Link>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/visionmissionobjective">
-                Vision Mission &amp; Objective
-              </NavDropdown.Item>
+              <Link to="/visionmissionobjective" className="reactLinks">
+                <NavDropdown.Item>
+                  Vision Mission &amp; Objective
+                </NavDropdown.Item>
+              </Link>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/staff">
-                Administrative Staff and Faculty Members
-              </NavDropdown.Item>
+              <Link to="/staff" className="reactLinks">
+                <NavDropdown.Item>
+                  Administrative Staff and Faculty Members
+                </NavDropdown.Item>
+              </Link>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/history">History</NavDropdown.Item>
+              <Link to="/history" className="reactLinks">
+                <NavDropdown.Item>History</NavDropdown.Item>
+              </Link>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/pedagogy">
-                Learning Pedagogy
+                <Link to="/pedagogy" className="reactLinks">
+              <NavDropdown.Item>
+                  Learning Pedagogy
               </NavDropdown.Item>
+                </Link>
             </NavDropdown>
 
             <NavDropdown title="Information" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="/information#admissions">
-                Admission
+                <Link to="/information#admissions" className="reactLinks">
+              <NavDropdown.Item>
+                  Admission
               </NavDropdown.Item>
+                </Link>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/information#academicInformation">
-                Academic Information
+                <Link
+                  to="/information#academicInformation"
+                  className="reactLinks"
+                >
+              <NavDropdown.Item>
+                  Academic Information
               </NavDropdown.Item>
+                </Link>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/information#scholarship">
-                Scholarship
+                <Link to="/information#scholarship" className="reactLinks">
+              <NavDropdown.Item>
+                  Scholarship
               </NavDropdown.Item>
+                </Link>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/information#generalInformation">
-                General Information
+                <Link
+                  to="/information#generalInformation"
+                  className="reactLinks"
+                >
+              <NavDropdown.Item>
+                  General Information
               </NavDropdown.Item>
+                </Link>
             </NavDropdown>
 
             <NavDropdown title="Clubs &amp; ECA" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="/clubs#thunderbolts">
-                Thunderbolts
+                <Link to="/clubs#thunderbolts" className="reactLinks">
+              <NavDropdown.Item>
+                  Thunderbolts
               </NavDropdown.Item>
+                </Link>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/clubs#extraActivities">
-                Extra Curricular Activities
+                <Link to="/clubs#extraActivities" className="reactLinks">
+              <NavDropdown.Item>
+                  Extra Curricular Activities
               </NavDropdown.Item>
+                </Link>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/clubs#amp">
-                ECA &amp; Staff
+                <Link to="/clubs#amp" className="reactLinks">
+              <NavDropdown.Item>
+                  ECA &amp; Staff
               </NavDropdown.Item>
+                </Link>
             </NavDropdown>
 
-            <Nav.Link href="/contact">Contact</Nav.Link>
+            <Link to="/contact" className="reactLinks">
+            <Nav.Link>
+                Contact
+            </Nav.Link>
+              </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

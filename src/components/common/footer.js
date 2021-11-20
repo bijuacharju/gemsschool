@@ -1,6 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import { FaFacebook, FaYoutube, FaLinkedinIn } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const items = [
   {
@@ -17,9 +18,7 @@ const items = [
     link5: "#",
     linkName5: "977 01 5275121",
     link6: "#",
-    linkName6: "1618 01 5275111",
-    link7: "#",
-    linkName7: "info@gems.edu.np",
+    linkName6: "info@gems.edu.np",
   },
   {
     key: 2,
@@ -34,6 +33,8 @@ const items = [
     linkName4: "Online Classes Links",
     link5: "#",
     linkName5: "Other Service",
+    link6: "#",
+    linkName6: "Other Service",
   },
   {
     key: 3,
@@ -80,25 +81,34 @@ function Footer() {
                 <div className="content">
                   <h4>{item.title}</h4>
                   <p>
-                    <a href={item.link1}>{item.linkName1}</a>
+                    <Link to={item.link1} className="reactLinks">
+                      {item.linkName1}
+                    </Link>
                   </p>
                   <p>
-                    <a href={item.link2}>{item.linkName2}</a>
+                    <Link to={item.link2} className="reactLinks">
+                      {item.linkName2}
+                    </Link>
                   </p>
                   <p>
-                    <a href={item.link3}>{item.linkName3}</a>
+                    <Link to={item.link3} className="reactLinks">
+                      {item.linkName3}
+                    </Link>
                   </p>
                   <p>
-                    <a href={item.link4}>{item.linkName4}</a>
+                    <Link to={item.link4} className="reactLinks">
+                      {item.linkName4}
+                    </Link>
                   </p>
                   <p>
-                    <a href={item.link5}>{item.linkName5}</a>
+                    <Link to={item.link5} className="reactLinks">
+                      {item.linkName5}
+                    </Link>
                   </p>
                   <p>
-                    <a href={item.link6}>{item.linkName6}</a>
-                  </p>
-                  <p>
-                    <a href={item.link7}>{item.linkName7}</a>
+                    <Link to={item.link6} className="reactLinks">
+                      {item.linkName6}
+                    </Link>
                   </p>
                 </div>
               </Col>
@@ -112,14 +122,20 @@ function Footer() {
         </div>
         <Row className="social">
           <Col xs={6} md={6} className="socialLeft">
-            <a href="/">
+            <Link to="/" className="reactLinks">
               <h4>GEMS</h4>
-            </a>
+            </Link>
           </Col>
           <Col xs={6} md={6} className="socialMedia">
-            <a href="/"><FaFacebook /></a>
-            <a href="/"><FaYoutube /></a>
-            <a href="/"><FaLinkedinIn /></a>
+            <Link to="/" className="reactLinks">
+              <FaFacebook />
+            </Link>
+            <Link to="/" className="reactLinks">
+              <FaYoutube />
+            </Link>
+            <Link to="/" className="reactLinks">
+              <FaLinkedinIn />
+            </Link>
           </Col>
         </Row>
       </div>
