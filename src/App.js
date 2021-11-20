@@ -15,11 +15,10 @@ import VisionMissionObjective from "./components/about/visionMissionObjective";
 import Staff from "./components/about/staff";
 import History from "./components/about/history";
 import Pedagogy from "./components/about/pedagogy";
+
 import Information from "./views/information";
 
-import Admissions from "./components/information/admissions";
-import AcademicInformation from "./components/information/academicInformation";
-import Scholarship from "./components/information/scholarship";
+import Clubs from "./views/clubs";
 
 function App() {
   return (
@@ -39,9 +38,9 @@ function App() {
         <Route path="pedagogy" element={<Pedagogy />} />
 
         <Route path="information" element={<Information/>} />
-        <Route path="admissions" element={<Admissions/>} />
-        <Route path="academicInformation" element={<AcademicInformation/>} />
-        <Route path="scholarship" element={<Scholarship />} />
+
+        <Route path="clubs" element={<Clubs />} />
+        
 
 
       </Routes>

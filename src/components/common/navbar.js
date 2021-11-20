@@ -51,7 +51,9 @@ function NavBar() {
             </NavDropdown>
 
             <NavDropdown title="Information" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="/information#admissions">Admission</NavDropdown.Item>
+              <NavDropdown.Item href="/information#admissions">
+                Admission
+              </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="/information#academicInformation">
                 Academic Information
@@ -63,6 +65,20 @@ function NavBar() {
               <NavDropdown.Divider />
               <NavDropdown.Item href="/information#generalInformation">
                 General Information
+              </NavDropdown.Item>
+            </NavDropdown>
+
+            <NavDropdown title="Clubs &amp; ECA" id="collasible-nav-dropdown">
+              <NavDropdown.Item href="/clubs#thunderbolts">
+                Thunderbolts
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="/clubs#extraActivities">
+                Extra Curricular Activities
+              </NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="/clubs#amp">
+                ECA &amp; Staff
               </NavDropdown.Item>
             </NavDropdown>
 

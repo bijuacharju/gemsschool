@@ -74,6 +74,17 @@
   margin: 40px 0 40px 0;
 }
 
+.contents{
+  display:flex;
+  align-items: center;
+  height: 100%;
+}
+.contents p{
+  margin: 0;
+}
+
+
+
 
 p {
   font-size: 16px;
