@@ -2,7 +2,7 @@ import React from "react";
 
 function Scholarship() {
   return (
-    <div className="containerFluid block bgGray">
+    <div className="containerFluid block bgGray"  id="scholarship">
       <div className="container">
         <div className="titleHolder">
           <h2>Scholarship</h2>

@@ -2,7 +2,7 @@ import React from "react";
 
 function AcademicInformation() {
   return (
-    <div className="container-fluid block">
+    <div className="container-fluid block"  id="academicInformation">
       <div className="container">
         <div className="titleHolder">
           <h2>Academic Information</h2>

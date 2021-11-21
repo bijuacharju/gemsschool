@@ -8,6 +8,7 @@ function GeneralInformation() {
       style={{
         borderBottom: "none",
       }}
+      id="generalInformation"
     >
       <div className="container">
         <div className="titleHolder">

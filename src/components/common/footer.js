@@ -122,18 +122,18 @@ function Footer() {
         </div>
         <Row className="social">
           <Col xs={6} md={6} className="socialLeft">
-            <Link to="/" className="reactLinks">
+            <Link to="/gemsschool/" className="reactLinks">
               <h4>GEMS</h4>
             </Link>
           </Col>
           <Col xs={6} md={6} className="socialMedia">
-            <Link to="/" className="reactLinks">
+            <Link to="/gemsschool/" className="reactLinks">
               <FaFacebook />
             </Link>
-            <Link to="/" className="reactLinks">
+            <Link to="/gemsschool/" className="reactLinks">
               <FaYoutube />
             </Link>
-            <Link to="/" className="reactLinks">
+            <Link to="/gemsschool/" className="reactLinks">
               <FaLinkedinIn />
             </Link>
           </Col>

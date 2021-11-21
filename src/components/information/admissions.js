@@ -10,6 +10,7 @@ function Admissions() {
       style={{
         borderTop: "1px solid #d9d9d9",
       }}
+      id="admissions"
     >
       <div className="container">
         <div className="titleHolder">

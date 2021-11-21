@@ -23,26 +23,30 @@ import Clubs from "./views/clubs";
 function App() {
   return (
     <div className="App">
+      
       <NavBar />
       <Routes>
         <Route path="/gemsschool" element={<Home />} />
-        <Route path="/gemsschool/facilitiesDetails" element={<FacilityDetails />} />
+        <Route
+          path="/gemsschool/facilitiesDetails"
+          element={<FacilityDetails />}
+        />
 
         <Route path="/gemsschool/contact" element={<Contact />} />
 
         <Route path="/gemsschool/aboutwhoweare" element={<AboutWhoWeAre />} />
         <Route path="/gemsschool/founderMessage" element={<FounderMessage />} />
-        <Route path="/gemsschool/visionmissionobjective" element={<VisionMissionObjective />} />
+        <Route
+          path="/gemsschool/visionmissionobjective"
+          element={<VisionMissionObjective />}
+        />
         <Route path="/gemsschool/staff" element={<Staff />} />
         <Route path="/gemsschool/history" element={<History />} />
         <Route path="/gemsschool/pedagogy" element={<Pedagogy />} />
 
-        <Route path="/gemsschool/information" element={<Information/>} />
+        <Route path="/gemsschool/information" element={<Information />} />
 
         <Route path="/gemsschool/clubs" element={<Clubs />} />
-        
-
-
       </Routes>
       <Footer />
     </div>

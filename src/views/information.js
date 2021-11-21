@@ -11,16 +11,16 @@ function Information() {
         <h2>Information</h2>
       </div>
       <div className="contentHolder">
-        <div id="admissions">
+        <div>
           <Admissions />
         </div>
-        <div id="academicInformation">
+        <div>
           <AcademicInformation />
         </div>
-        <div id="scholarship">
+        <div>
           <Scholarship />
         </div>
-        <div id="generalInformation">
+        <div>
           <GeneralInformation />
         </div>
       </div>
