@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Button } from 'react-bootstrap'
 import { FaAngleDoubleRight } from "react-icons/fa";
 
@@ -21,9 +22,11 @@ function WhoWeAre() {
               the Ring road, it shifted all classes from four to ten from Kiran
               Bhawan, Sanepa to the new complex in August 2...
             </p>
-            <Button href="/aboutwhoweare" className="button">
+            <Link to="/gemsschool/aboutwhoweare">
+            <Button className="button">
               Read More <FaAngleDoubleRight />
             </Button>
+            </Link>
           </div>
         </div>
       </div>

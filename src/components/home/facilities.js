@@ -1,11 +1,12 @@
 import React from "react";
-import { Row, Col, Card} from "react-bootstrap";
+import { Row, Col, Card } from "react-bootstrap";
 import { FaHome, FaFirstAid, FaBus } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const items = [
   {
     key: 1,
-    link: "/facilitiesDetails#hostel",
+    link: "/gemsschool/facilitiesDetails#hostel",
     icon: <FaHome />,
     title: "Hostel",
     description:
@@ -13,7 +14,7 @@ const items = [
   },
   {
     key: 2,
-    link: "/facilitiesDetails#health",
+    link: "/gemsschool/facilitiesDetails#health",
     icon: <FaFirstAid />,
     title: "Health Care",
     description:
@@ -21,7 +22,7 @@ const items = [
   },
   {
     key: 3,
-    link: "/facilitiesDetails#bus",
+    link: "/gemsschool/facilitiesDetails#bus",
     icon: <FaBus />,
     title: "School Bus",
     description:
@@ -41,7 +42,7 @@ function Facilities() {
             {items.map((item) => {
               return (
                 <Col xs={12} md={4}>
-                  <a href={item.link}>
+                  <Link to={item.link}>
                     <Card>
                       <Card.Body className="facilitiesIcon" key={item.key}>
                         {item.icon}
@@ -49,7 +50,7 @@ function Facilities() {
                         <Card.Text>{item.description}</Card.Text>
                       </Card.Body>
                     </Card>
-                  </a>
+                  </Link>
                 </Col>
               );
             })}

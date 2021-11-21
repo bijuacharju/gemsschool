@@ -1,6 +1,7 @@
 import React from "react";
 import { Row, Col, Button } from "react-bootstrap";
 import {FaAngleDoubleRight} from 'react-icons/fa';
+import { Link } from "react-router-dom";
 
 function Extra() {
   return (
@@ -27,10 +28,11 @@ function Extra() {
                 started for the effective implementation of this approach in the
                 future.
               </p>
-              
-            <Button href="/" className="button">
+            <Link to="/gemsschool">
+            <Button className="button">
               Read More <FaAngleDoubleRight />
             </Button>
+            </Link>
             </div>
           </Col>
         </Row>

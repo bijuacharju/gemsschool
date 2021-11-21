@@ -25,21 +25,21 @@ function App() {
     <div className="App">
       <NavBar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/facilitiesDetails" element={<FacilityDetails />} />
+        <Route path="/gemsschool" element={<Home />} />
+        <Route path="/gemsschool/facilitiesDetails" element={<FacilityDetails />} />
 
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/gemsschool/contact" element={<Contact />} />
 
-        <Route path="/aboutwhoweare" element={<AboutWhoWeAre />} />
-        <Route path="/founderMessage" element={<FounderMessage />} />
-        <Route path="/visionmissionobjective" element={<VisionMissionObjective />} />
-        <Route path="/staff" element={<Staff />} />
-        <Route path="history" element={<History />} />
-        <Route path="pedagogy" element={<Pedagogy />} />
+        <Route path="/gemsschool/aboutwhoweare" element={<AboutWhoWeAre />} />
+        <Route path="/gemsschool/founderMessage" element={<FounderMessage />} />
+        <Route path="/gemsschool/visionmissionobjective" element={<VisionMissionObjective />} />
+        <Route path="/gemsschool/staff" element={<Staff />} />
+        <Route path="/gemsschool/history" element={<History />} />
+        <Route path="/gemsschool/pedagogy" element={<Pedagogy />} />
 
-        <Route path="information" element={<Information/>} />
+        <Route path="/gemsschool/information" element={<Information/>} />
 
-        <Route path="clubs" element={<Clubs />} />
+        <Route path="/gemsschool/clubs" element={<Clubs />} />
         
 
 
