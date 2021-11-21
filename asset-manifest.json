@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/gemsschool/static/css/main.a0cceca7.chunk.css",
-    "main.js": "/gemsschool/static/js/main.350f32e5.chunk.js",
-    "main.js.map": "/gemsschool/static/js/main.350f32e5.chunk.js.map",
+    "main.js": "/gemsschool/static/js/main.0a02445d.chunk.js",
+    "main.js.map": "/gemsschool/static/js/main.0a02445d.chunk.js.map",
     "runtime-main.js": "/gemsschool/static/js/runtime-main.18b7084c.js",
     "runtime-main.js.map": "/gemsschool/static/js/runtime-main.18b7084c.js.map",
     "static/css/2.383c0125.chunk.css": "/gemsschool/static/css/2.383c0125.chunk.css",
@@ -56,6 +56,6 @@
     "static/css/2.383c0125.chunk.css",
     "static/js/2.7ffcb1d9.chunk.js",
     "static/css/main.a0cceca7.chunk.css",
-    "static/js/main.350f32e5.chunk.js"
+    "static/js/main.0a02445d.chunk.js"
   ]
 }
